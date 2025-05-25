@@ -1,0 +1,26 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px;
+}
+.multiple-dices img {
+  width: 649px;
+  height: 522px;
+}
+.heading h1 {
+  width: 528px;
+  height: 144px;
+  font-weight: 700;
+  font-size: 96px;
+  margin-bottom: 2px;
+}
+.heading button {
+  width: 220px;
+  height: 44px;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  margin-left: 60%;
+  margin-bottom: 30%;
+}
