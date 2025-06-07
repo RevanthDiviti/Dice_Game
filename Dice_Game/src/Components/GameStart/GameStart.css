@@ -61,9 +61,17 @@
   background: transparent;
   width: 220px;
   height: 44px;
+  font-weight: 600;
+  font-size: 16px;
   border-radius: 5px;
   border: 1px solid #000;
   margin-bottom: 36px;
+  cursor: pointer;
+}
+.dice-img button:hover {
+  background: orange;
+  color: #000;
+  font-weight: 800;
 }
 .dice-img span button {
   background: #000;
@@ -83,7 +91,6 @@
   background: #fbf1f1;
   border: none;
   color: #000;
-  display: none;
 }
 .rules h2 {
   font-size: 24px;
