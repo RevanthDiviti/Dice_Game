@@ -43,6 +43,9 @@
   font-weight: 700;
   margin-left: 70%;
 }
+#display-selected{
+  margin-left: 50%;
+}
 .dice-img {
   display: flex;
   align-items: center;
@@ -52,6 +55,7 @@
 .dice-img img {
   width: 250px;
   height: 250px;
+  cursor: pointer;
 }
 .dice-img p {
   font-weight: 500;
@@ -100,3 +104,18 @@
   font-size: 16px;
   font-weight: 500px;
 }
+.choose{
+  display: flex;
+  flex-direction: column;
+}
+.choose .numbers p {
+  cursor: pointer;
+}
+#not-selected{
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 38%;
+  color: red;
+  display: none;
+}
+
